@@ -1,0 +1,41 @@
+body{
+    background-image: url(img/lindo.gif);
+    font-family: cursive; 
+}
+label{
+    color: hotpink;
+}
+button{
+    background-color: aqua;
+    margin: 25px;
+}
+button:hover{
+    background-color: antiquewhite;
+    padding: 20px;
+    border: 3px solid yellow;
+    font-size: 25px;
+    color: fuchsia;
+}
+.happy-face {
+    background: url(img/happy.jpg) no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    margin-left: 20px;
+}
+.bad-face {
+    background: url(img/bad.jpg) no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    margin-left: 20px;
+    
+}
+.salida {
+    width: 300px;
+    background-color: red;
+   
+}
+#message{
+    font-size: 20px;
+color: darkmagenta;
+    margin-left: 50px;
+}

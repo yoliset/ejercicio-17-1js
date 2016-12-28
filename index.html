@@ -12,28 +12,34 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-xs-12">
-                <h1 class="text-center">PUNTAJE SQUAD</h1>
+                 <div class="col-md-12 col-xs-12">
+                     <h1 class="text-center">PUNTAJE SQUAD</h1>
+                 </div>
+            <div class="caja">
+                 <div class="col-md-7 col-xs-12">
+                     <label for="">Puntos Squad:</label>
+                     <p><input type="text" id="punto_squad" value="10"></p>
+                 </div>
+                 <div class="col-md-5 col-xs-12">
+                     <label for="">Cantidad máxima de puntos:</label>
+                     <input type="text" id="max_puntos" value="100">
+                 </div>
+                 <div class="col-md-7 col-xs-12">
+                      <button onclick="calcular()">Calcular</button>
+                 </div>
             </div>
-            <div class="col-md-7 col-xs-12">
-                <label for="">Puntos Squad:</label>
-            <input type="text" id="punto_squad" value="10">
-            </div>
-            <div class="col-md-5 col-xs-12">
-                <label for="">Cantidad máxima de puntos:</label>
-                <input type="text" id="max_puntos" value="100">
-            </div>
-            <div class="col-md-4 col-xs-12">
-                    <button onclick="calcular()">Calcular</button>
-            </div>
-           <div  class="col-md-8 col-xs-12">
-                  <div  id="salida"> </div>
+                 <div  class="col-md-8 col-xs-12">
+                     <div  id="salida"> </div>
                   <div  id="message"> </div>               
+                 </div>
            </div>
-        </div>
-    <div>
-        <p class="text-center"> No te olvides dar lo mejor de ti , en cada examen !! </p>    
-    </div>
+           <div>
+                 <p class="text-center"> No te olvides dar lo mejor de ti , en cada examen !! </p>    
+           </div>
+           <div class=" row col-md-8  col-md-push-3 col-xs-10">
+               <a href="https://yoliset.github.io/ejercicio17-2-js/"><button>Siguiente</button></a>
+               <a href="https://github.com/yoliset/ejercicio-17-1js"><button>Visita mi repositorio</button></a>
+           </div>
     </div>
 </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

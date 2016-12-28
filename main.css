@@ -2,12 +2,19 @@ body{
     background-image: url(img/lindo.gif);
     font-family: cursive; 
 }
+.caja{
+    background-color: rgba(0, 255, 255, 0.4);
+    padding-bottom: 300px;
+}
 label{
     color: hotpink;
+    font-size: 20px;
 }
 button{
-    background-color: aqua;
+    font-size: 22px;
+    background-color:rgba(218, 112, 214, 0.48);
     margin: 25px;
+    padding: 7px;
 }
 button:hover{
     background-color: antiquewhite;
